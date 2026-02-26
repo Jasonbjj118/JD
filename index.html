@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber 職缺資訊 - Retail Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .tab-active {
+            border-bottom: 2px solid #000000;
+            color: #000000;
+            font-weight: 600;
+        }
+        .tab-inactive {
+            color: #6b7280;
+            border-bottom: 2px solid transparent;
+        }
+        .tab-inactive:hover {
+            color: #374151;
+            border-bottom: 2px solid #d1d5db;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans text-gray-800">
+
+    <div class="max-w-5xl mx-auto pt-10 pb-20 px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 flex items-center gap-3">
+                <i class="fa-brands fa-uber text-4xl"></i>
+                Uber Retail 團隊職缺資訊
+            </h1>
+            <p class="text-gray-500 mt-2">以下職缺資訊已根據需求過濾，隱藏職等與招募經理資訊。</p>
+        </div>
+
+        <!-- Tabs Container -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+            
+            <!-- Tab Navigation -->
+            <div class="flex border-b border-gray-200 bg-gray-50/50">
+                <button onclick="switchTab('job1')" id="btn-job1" class="flex-1 py-4 px-6 text-center text-sm sm:text-base transition-colors duration-200 focus:outline-none tab-active">
+                    Senior Account Management Lead
+                </button>
+                <button onclick="switchTab('job2')" id="btn-job2" class="flex-1 py-4 px-6 text-center text-sm sm:text-base transition-colors duration-200 focus:outline-none tab-inactive">
+                    Partner Manager, Retail
+                </button>
+            </div>
+
+            <!-- Content Area -->
+            <div class="p-6 sm:p-8">
+
+                <!-- ==================== JOB 1: Senior Account Management Lead ==================== -->
+                <div id="job1" class="block">
+                    <!-- Job Header -->
+                    <div class="border-b border-gray-200 pb-6 mb-6">
+                        <h2 class="text-2xl font-bold text-gray-900">Senior Account Management Lead, Uber Retail</h2>
+                    </div>
+
+                    <!-- Job Content -->
+                    <div class="space-y-8 text-gray-700 leading-relaxed">
+                        
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">Internal Job Description</h3>
+                            <p class="mb-3">This role sits within the Uber Retail (GR) Commercial team in Taiwan and plays a key role in accelerating the growth of Rest of Retail (RoR) as a strategic pillar for 2026.</p>
+                            <p class="mb-3">The role will oversee a portfolio of retail partners and support a team of Account Managers organized by retail operating model (Category-led, Mission-driven, Moment-led, Routine Grocery). The focus will be on driving structured growth strategies by vertical, strengthening business fundamentals, and elevating commercial rigor across the team.</p>
+                            
+                            <p class="font-semibold mt-4 mb-2">Key internal priorities include:</p>
+                            <ol class="list-decimal pl-5 space-y-1">
+                                <li>Improving vertical-level strategy clarity and growth roadmaps</li>
+                                <li>Enhancing AM operating discipline and performance management</li>
+                                <li>Strengthening cross-functional collaboration with Ops, Ads, Commercial team</li>
+                                <li>Identifying the next curve of growth beyond store and SKU expansion</li>
+                            </ol>
+                            <p class="mt-4">This is a high-impact leadership role for someone who can combine strategic thinking with strong execution discipline, and who is interested in shaping the long-term evolution of Uber Retail in Taiwan.</p>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">About the Role</h3>
+                            <p>The Uber Retail team is building the future of on-demand retail in Taiwan, helping merchants grow sustainably through the Uber Eats platform. This role leads a diverse portfolio of retail partners and a team, driving commercial strategy and business performance across multiple retail categories. You will directly influence marketplace growth, category expansion, and long-term partner success within a fast-evolving ecosystem.</p>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">What You'll Do</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Lead and develop a team responsible for managing a portfolio of retail partners</li>
+                                <li>Drive commercial performance by identifying growth opportunities and executing strategic initiatives</li>
+                                <li>Build strong relationships with key retail partners and influence long-term business outcomes</li>
+                                <li>Collaborate cross-functionally to improve marketplace metrics and operational excellence</li>
+                                <li>Translate data insights into actionable plans that drive sustainable business growth</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">Basic Qualifications</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>8+ years of experience in retail, FMCG, marketplace, or account management environments</li>
+                                <li>Demonstrated experience influencing stakeholders, leading projects, or mentoring team members</li>
+                                <li>Strong commercial acumen with a track record of driving revenue or growth metrics</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">Preferred Qualifications</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Experience managing national retail chains or multi-category portfolios</li>
+                                <li>Experience working in a fast-paced, high-growth, or platform-based business environment</li>
+                                <li>Strong data fluency with the ability to translate insights into commercial actions</li>
+                                <li>Experience leading cross-functional initiatives across operations, marketing, or finance</li>
+                                <li>Background in e-commerce, marketplace, or omnichannel retail models</li>
+                            </ul>
+                        </section>
+
+                    </div>
+                </div>
+
+                <!-- ==================== JOB 2: Partner Manager ==================== -->
+                <div id="job2" class="hidden">
+                    <!-- Job Header -->
+                    <div class="border-b border-gray-200 pb-6 mb-6">
+                        <h2 class="text-2xl font-bold text-gray-900">Partner Manager, Retail - Taipei</h2>
+                    </div>
+
+                    <!-- Job Content -->
+                    <div class="space-y-8 text-gray-700 leading-relaxed">
+                        
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">About the Role</h3>
+                            <p class="mb-4">The Uber Eats team is seeking sharp, highly motivated individuals to join the Retail segment, managing some of our most strategic partners. As a Partner Manager, you will work closely with merchant partners to drive revenue growth, operational excellence, and customer experience. You will collaborate cross-functionally with local and central operations, product, sales, marketing, and engineering teams to optimize partnerships and deliver maximum value for both Uber and its merchant partners.</p>
+                            
+                            <p class="font-semibold mb-2">You will thrive in this role if you:</p>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Perform at your best in a collaborative team environment</li>
+                                <li>Demonstrate a strong appetite for continuous learning</li>
+                                <li>Value ideas and impact over hierarchy</li>
+                                <li>Are deeply customer-obsessed and results-driven</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">What You'll Do</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Own the commercial relationship for assigned retail categories, managing multiple merchants through annual planning and regular weekly and monthly business reviews</li>
+                                <li>Execute portfolio-level commercial strategies aligned with category and merchant-specific growth objectives</li>
+                                <li>Partner closely with operations teams to ensure a high-quality consumer experience</li>
+                                <li>Develop and implement action plans to improve key performance indicators, including tailored promotional strategies by category or specialty store</li>
+                                <li>Present and recommend data-backed solutions to merchants, clearly articulating the value proposition of Ads and Direct offerings</li>
+                                <li>Serve as the primary coordination point between merchants and internal teams to ensure accurate and timely execution</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">Basic Qualifications</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Minimum 3 years of full-time professional experience in account management, retail, CPG, or a similar commercial role</li>
+                                <li>Prior client-facing experience, ideally managing enterprise or mid-market accounts</li>
+                                <li>Strong analytical capability with confidence in making data-driven decisions and applying sound business judgment</li>
+                                <li>Demonstrated track record of managing complex partnerships and delivering measurable results</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3 class="text-lg font-bold text-black mb-3">Preferred Qualifications</h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Experience in Grocery, Retail, or CPG industries (preferred but not required)</li>
+                                <li>Experience managing complex datasets and tracking and achieving multiple OKRS</li>
+                                <li>Strong project management skills, including experience building joint business plans and delivering consistent performance outcomes</li>
+                                <li>Demonstrated ability to operate effectively within a cross-functional organizational matrix</li>
+                                <li>Experience partnering with Product and Engineering teams to surface insights and influence product improvements</li>
+                            </ul>
+                        </section>
+
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- Standard Footer for both -->
+            <div class="bg-gray-100 p-6 text-sm text-gray-500 border-t border-gray-200">
+                <p class="mb-2"><strong>Uber's mission</strong> is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.</p>
+                <p>Offices continue to be central to collaboration and Uber's cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for Tab Switching -->
+    <script>
+        function switchTab(tabId) {
+            // Hide all tab contents
+            document.getElementById('job1').classList.add('hidden');
+            document.getElementById('job1').classList.remove('block');
+            document.getElementById('job2').classList.add('hidden');
+            document.getElementById('job2').classList.remove('block');
+
+            // Reset tab styles
+            const btn1 = document.getElementById('btn-job1');
+            const btn2 = document.getElementById('btn-job2');
+            
+            btn1.className = "flex-1 py-4 px-6 text-center text-sm sm:text-base transition-colors duration-200 focus:outline-none tab-inactive";
+            btn2.className = "flex-1 py-4 px-6 text-center text-sm sm:text-base transition-colors duration-200 focus:outline-none tab-inactive";
+
+            // Show selected tab content and update active style
+            document.getElementById(tabId).classList.remove('hidden');
+            document.getElementById(tabId).classList.add('block');
+            document.getElementById('btn-' + tabId).className = "flex-1 py-4 px-6 text-center text-sm sm:text-base transition-colors duration-200 focus:outline-none tab-active";
+        }
+    </script>
+</body>
+</html>
